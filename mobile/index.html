@@ -1,0 +1,268 @@
+<!DOCTYPE html>
+<html>
+<head lang="en">
+    <meta charset="UTF-8">
+    <title>諾亞空戰</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="format-detection" content="telephone=no">
+    <meta name="format-detection" content="address=no">
+    <link rel="stylesheet" href="css/index.css"/>
+    <script>
+        let userApparatus = navigator.userAgent;
+        if(userApparatus.match(/(Macintosh|Windows)/)){
+            window.location='../index.html';
+        }
+    </script>
+</head>
+<body>
+<div id="ny_air_logo"></div>
+<div class="ny_plane_pop_up_window">
+    <div id="ny_air_wrap">
+        <div class="ny_air_aside">
+            <div class="ny_air_logo"></div>
+            <div class="ny_air_aside_box">
+                <div class="ny_air_lottery_info">
+                    <div>本期期数：
+                        <span id="ny_air_current_period">73918112</span>
+                    </div>
+                    <div>开奖时间：
+                        <span id="ny_air_lottery_time">00 : 03 : 45</span>
+                    </div>
+                    <div id="ny_air_voice" class="close"></div>
+                </div>
+                <ul class="ny_air_rank_title">
+                    <li id="ny_air_1_place_title" class="plane_9"><div></div></li>
+                    <li id="ny_air_2_place_title" class="plane_4"><div></div></li>
+                    <li id="ny_air_3_place_title" class="plane_8"><div></div></li>
+                    <li id="ny_air_4_place_title" class="plane_7"><div></div></li>
+                    <li id="ny_air_5_place_title" class="plane_5"><div></div></li>
+                    <li id="ny_air_6_place_title" class="plane_2"><div></div></li>
+                    <li id="ny_air_7_place_title" class="plane_10"><div></div></li>
+                    <li id="ny_air_8_place_title" class="plane_1"><div></div></li>
+                    <li id="ny_air_9_place_title" class="plane_3"><div></div></li>
+                    <li id="ny_air_10_place_title" class="plane_6"><div></div></li>
+                </ul>
+            </div>
+        </div>
+        <div id="ny_air_container">
+            <ul class="ny_air_chase_rank_box">
+                <li id="ny_air_chase_1_place" class="plane_9">
+                    <div class="rank_bg">
+                        <svg xmlns="http://www.w3.org/2000/svg"><path d="M20.84,29.5V13.16H18.5V10.84L23.17,8.5H25.5v21Z"/></svg>
+                    </div>
+                    <div class="rank_info">
+                        <div class="plane_number"></div><div class="flight_time"></div>
+                    </div>
+                </li>
+                <li id="ny_air_chase_2_place" class="plane_4">
+                    <div class="rank_bg">
+                        <svg xmlns="http://www.w3.org/2000/svg"><path d="M17.34,13.16H15c.36-3.11,1.92-4.66,4.66-4.66h4.68a4.48,4.48,0,0,1,3.29,1.38A4.5,4.5,0,0,1,29,13.16v1.18q0,2.41-4.52,6.27l-.3.27Q19.67,24.75,19.66,27v.21H29V29.5H15V27.16q0-2.41,4.51-6.28l.31-.27q4.51-3.86,4.52-6.27V13.16a2.2,2.2,0,0,0-.7-1.64A2.29,2.29,0,0,0,22,10.84H19.66C18.22,10.84,17.45,11.61,17.34,13.16Z"/></svg>
+                    </div>
+                    <div class="rank_info">
+                        <div class="plane_number"></div><div class="flight_time"></div>
+                    </div>
+                </li>
+                <li id="ny_air_chase_3_place" class="plane_8">
+                    <div class="rank_bg">
+                        <svg xmlns="http://www.w3.org/2000/svg"><path d="M15,8.5H29v2.34L22,15.5h2.34A4.2,4.2,0,0,1,27.67,17,4.73,4.73,0,0,1,29,20.16v4.68a4.48,4.48,0,0,1-1.38,3.29,4.54,4.54,0,0,1-3.28,1.37H19.66q-4.12,0-4.66-4.66h2.34c.11,1.55.88,2.32,2.32,2.32H22a2.31,2.31,0,0,0,1.65-.68,2.25,2.25,0,0,0,.69-1.64V20.16a2.76,2.76,0,0,0-.59-1.43A2,2,0,0,0,22,17.84H17.34V15.5l7-4.66H15Z"/></svg>
+                    </div>
+                    <div class="rank_info">
+                        <div class="plane_number"></div><div class="flight_time"></div>
+                    </div>
+                </li>
+                <li id="ny_air_chase_4_place" class="plane_7">
+                    <div class="rank_bg">
+                        <svg xmlns="http://www.w3.org/2000/svg"><path d="M22.84,26.5v-5H16.16V19.83l6.68-8.33h3.32v8.33h1.68V21.5H26.16v5Zm0-6.67V13.58l-5,6.25Z"></svg>
+                    </div>
+                    <div class="rank_info">
+                        <div class="plane_number"></div><div class="flight_time"></div>
+                    </div>
+                </li>
+                <li id="ny_air_chase_5_place" class="plane_5">
+                    <div class="rank_bg">
+                        <svg xmlns="http://www.w3.org/2000/svg"><path d="M17,11.5H27v1.67H20.33V16.5h3.34A3.35,3.35,0,0,1,27,19.83v3.34a3.19,3.19,0,0,1-1,2.35,3.23,3.23,0,0,1-2.34,1H20.33q-3,0-3.33-3.33h1.67c.08,1.11.63,1.66,1.66,1.66H22a1.63,1.63,0,0,0,1.18-.49,1.59,1.59,0,0,0,.49-1.17V19.83a1.59,1.59,0,0,0-.49-1.17A1.63,1.63,0,0,0,22,18.17H17Z"></svg>
+                    </div>
+                    <div class="rank_info">
+                        <div class="plane_number"></div><div class="flight_time"></div>
+                    </div>
+                </li>
+                <li id="ny_air_chase_6_place" class="plane_2">
+                    <div class="rank_bg">
+                        <svg xmlns="http://www.w3.org/2000/svg"><path d="M20.33,18.17a2.1,2.1,0,0,1,.52-1.26A1.58,1.58,0,0,1,22,16.5h1.67A3.35,3.35,0,0,1,27,19.83v3.34a3.23,3.23,0,0,1-1,2.34,3.19,3.19,0,0,1-2.35,1H20.33a3.19,3.19,0,0,1-2.35-1,3.23,3.23,0,0,1-1-2.34V17.33a5.87,5.87,0,0,1,5.83-5.83h2.5v1.67H23.67a3.36,3.36,0,0,0-3.34,3.33Zm3.34,5V19.83a1.59,1.59,0,0,0-.49-1.17A1.63,1.63,0,0,0,22,18.17a1.67,1.67,0,0,0-1.67,1.66v3.34a1.59,1.59,0,0,0,.49,1.17,1.67,1.67,0,0,0,2.36,0A1.59,1.59,0,0,0,23.67,23.17Z"></svg>
+                    </div>
+                    <div class="rank_info">
+                        <div class="plane_number"></div><div class="flight_time"></div>
+                    </div>
+                </li>
+                <li id="ny_air_chase_7_place" class="plane_10">
+                    <div class="rank_bg">
+                        <svg xmlns="http://www.w3.org/2000/svg"><path d="M17,11.5H27v3.33l-.84,1.67-.83,1.67a13.88,13.88,0,0,0-1.67,5V26.5H20.33V23.17a12.83,12.83,0,0,1,1.67-5l1.66-3.34V13.17H17Z"/></svg>
+                    </div>
+                    <div class="rank_info">
+                        <div class="plane_number"></div><div class="flight_time"></div>
+                    </div>
+                </li>
+                <li id="ny_air_chase_8_place" class="plane_1">
+                    <div class="rank_bg">
+                        <svg xmlns="http://www.w3.org/2000/svg"><path d="M23.67,19a3,3,0,0,1,2.5,1.08A3.67,3.67,0,0,1,27,22.33v.84a3.43,3.43,0,0,1-1,2.22,3,3,0,0,1-2.37,1.11H20.33A3,3,0,0,1,18,25.39a3.43,3.43,0,0,1-1-2.22v-.84a3.67,3.67,0,0,1,.83-2.25A2.94,2.94,0,0,1,20.33,19a4,4,0,0,1-2.49-1,3.1,3.1,0,0,1-.84-2.3v-.84a3.35,3.35,0,0,1,3.33-3.33h3.34A3.35,3.35,0,0,1,27,14.83v.84a3.13,3.13,0,0,1-.83,2.3A4.09,4.09,0,0,1,23.67,19Zm0-2.5V14.83a1.59,1.59,0,0,0-.49-1.17A1.63,1.63,0,0,0,22,13.17a1.67,1.67,0,0,0-1.67,1.66V16.5a1.67,1.67,0,0,0,3.34,0Zm0,6.67V21.5A1.48,1.48,0,0,0,22,19.83a1.48,1.48,0,0,0-1.67,1.67v1.67A1.67,1.67,0,0,0,22,24.83a1.63,1.63,0,0,0,1.18-.49A1.59,1.59,0,0,0,23.67,23.17Z"/></svg>
+                    </div>
+                    <div class="rank_info">
+                        <div class="plane_number"></div><div class="flight_time"></div>
+                    </div>
+                </li>
+                <li id="ny_air_chase_9_place" class="plane_3">
+                    <div class="rank_bg">
+                        <svg xmlns="http://www.w3.org/2000/svg"><path d="M23.66,19.83C23.54,20.94,23,21.5,22,21.5H20.33A3.35,3.35,0,0,1,17,18.17V14.83a3.35,3.35,0,0,1,3.33-3.33h3.34A3.35,3.35,0,0,1,27,14.83v5.84a5.87,5.87,0,0,1-5.84,5.83H18.67V24.83h1.66a3.36,3.36,0,0,0,3.33-3.33Zm-3.33-5v3.34a1.59,1.59,0,0,0,.49,1.17,1.62,1.62,0,0,0,1.18.49,1.67,1.67,0,0,0,1.18-.49,1.59,1.59,0,0,0,.49-1.17V14.83a1.59,1.59,0,0,0-.49-1.17,1.67,1.67,0,0,0-2.36,0A1.59,1.59,0,0,0,20.33,14.83Z"/></svg>
+                    </div>
+                    <div class="rank_info">
+                        <div class="plane_number"></div><div class="flight_time"></div>
+                    </div>
+                </li>
+                <li id="ny_air_chase_10_place" class="plane_6">
+                    <div class="rank_bg">
+                        <svg xmlns="http://www.w3.org/2000/svg"><path d="M12.84,26.5V14.83H11.16V13.17L14.5,11.5h1.66v15Z"/><path d="M26.16,11.5h3.35a3.35,3.35,0,0,1,3.33,3.33v8.34a3.36,3.36,0,0,1-3.33,3.33H26.16a3.35,3.35,0,0,1-3.32-3.33V14.83a3.35,3.35,0,0,1,3.32-3.33Zm3.32,3.05a1.66,1.66,0,0,0-2.82-.89,1.6,1.6,0,0,0-.5,1.17V20.5ZM26.2,23.43a1.77,1.77,0,0,0,.54,1.05,1.71,1.71,0,0,0,2.77-1.31V17.51Z"/></svg>
+                    </div>
+                    <div class="rank_info">
+                        <div class="plane_number"></div><div class="flight_time"></div>
+                    </div>
+                </li>
+            </ul>
+            <div class="stewardess"></div>
+            <div class="ny_air_chase_scene">
+                <div class="ny_air_scene_clouds"></div>
+                <div class="ny_air_scene_start"></div>
+                <div class="ny_air_scene_end">
+                    <span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span>
+                </div>
+                <div class="ny_air_chase_planes_scene">
+                    <div id="plane_1"><div></div></div>
+                    <div id="plane_2"><div></div></div>
+                    <div id="plane_3"><div></div></div>
+                    <div id="plane_4"><div></div></div>
+                    <div id="plane_5"><div></div></div>
+                    <div id="plane_6"><div></div></div>
+                    <div id="plane_7"><div></div></div>
+                    <div id="plane_8"><div></div></div>
+                    <div id="plane_9"><div></div></div>
+                    <div id="plane_10"><div></div></div>
+                </div>   
+            </div>
+            <div class="ny_air_countdown_box">
+                <div class="ny_air_timer_box"></div>
+                <div id="ny_air_try_luck_btn"><span>试试手气</span></div>
+            </div>
+        </div>
+        <div class="ny_air_close"></div>
+    </div>
+</div>
+<!-- 諾亞空戰5分_飛機追逐場景_總時數 24s-->
+<div class="NY_air_chase_total_time"></div>
+<!-- 飛機追逐場景動畫結束前_定格的總時間 22s-->
+<div class="freeze_screen_before_chase_animation_end"></div>
+<!-- 試手氣_飛機追逐場景_總時數 14s-->
+<div class="try_luck_total_time"></div>
+<!-- 試手氣的飛機追逐場景動畫結束前_定格的總時間 12s-->
+<div class="freeze_screen_before_try_luck_animation_end"></div>
+<!-- keyframes NYairChasePlanes -->
+<div class="NYairChasePlanes_top-100_start"></div>
+<div class="NYairChasePlanes_top14_start"></div>
+<div class="NYairChasePlanes_top14_end"></div>
+<!-- keyframes tryLuckChasePlanes -->
+<div class="tryLuckChasePlanes_top-100_start"></div>
+<div class="tryLuckChasePlanes_top14_start"></div>
+<div class="tryLuckChasePlanes_top14_end"></div>
+
+<script>
+    (function(){
+        document.getElementById('ny_air_logo').onclick = function(){
+            document.querySelector('.ny_plane_pop_up_window').style.display = 'flex';
+        }
+        document.querySelector('.ny_air_close').onclick = function(){
+            document.querySelector('.ny_plane_pop_up_window').style.display = 'none';
+        }
+        document.getElementById('ny_air_voice').onclick = function(){
+            this.classList.toggle('close');
+        }
+        
+        const airTryLuckBtn = document.getElementById('ny_air_try_luck_btn'),
+            AIR_COUNTDOWN_SEC = 300,//設定倒數秒數 300sec
+            AIR_TRY_LUCK_NOT = 30,//設定開獎前幾秒不能試試手氣 30sec
+            AIR_CHASE_READY = 10,//設定開獎前幾秒飛機起動 10sec
+            PLANE_DATA = [1,2,3,4,5,6,7,8,9,10];
+        let airCountdownTimer,
+            air_countdown_sec = AIR_COUNTDOWN_SEC,
+            userApparatus = navigator.userAgent;
+        console.log(userApparatus);
+        if(userApparatus.match(/(iPhone|Android)/)){
+            // window.location='./m/index.html';
+        }
+
+        function airShowTimer(){
+            document.querySelector('.ny_air_timer_box').innerHTML= air_countdown_sec;
+        }
+        function airTryLuckBtnOff(){
+            airTryLuckBtn.removeEventListener('click', air_try_luck);
+        }
+        function airCountdown(){            
+            if(air_countdown_sec > 0){
+                if(air_countdown_sec == AIR_TRY_LUCK_NOT){
+                    airTryLuckBtn.style.display = 'none';
+                    airTryLuckBtnOff();
+                }
+                if(air_countdown_sec == AIR_CHASE_READY) document.getElementById('ny_air_wrap').className = 'chase_scene_ready';
+                airShowTimer();
+                air_countdown_sec -= 1;
+            }else{
+                air_countdown_sec = 'GO';
+                airShowTimer();
+                setTimeout(air_chase_start,500);
+                return false;
+            };
+            airCountdownTimer = setTimeout(airCountdown,1000);
+        }
+        function air_chase_start(){
+            document.getElementById('ny_air_wrap').className = 'chase_ranking';
+            NuoYa_planes_ranking();
+        }
+        function air_try_luck(){
+            clearTimeout(airCountdownTimer)
+            airTryLuckBtnOff();
+            document.getElementById('ny_air_wrap').className = 'try_luck_ranking';
+            NuoYa_planes_ranking();
+        }
+
+        airCountdown();
+        airTryLuckBtn.addEventListener('click', air_try_luck);
+
+        function NuoYa_planes_ranking(){
+            // 打亂排名順序
+            let plane_data = PLANE_DATA.sort(function(a, b){
+                    return Math.round(Math.random());
+                }),
+                [plane_1, plane_2, plane_3, plane_4, plane_5, plane_6, plane_7, plane_8, plane_9, plane_10] = plane_data;
+            console.log(plane_data);
+
+            plane_data.forEach(function(planeNumber, index){
+                document.getElementById('ny_air_' + ( index + 1 ) + '_place_title').className = 'plane_' + planeNumber;
+                document.getElementById('ny_air_chase_' + ( index + 1 ) + '_place').className = 'plane_' + planeNumber;
+                document.getElementById('plane_' + planeNumber).className = 'ny_air_' + ( index + 1 ) + '_place';
+            })
+            if(document.getElementById('ny_air_wrap').classList.contains('chase_ranking')){
+                // 25s(諾亞空戰的動畫時間) + 2s(開獎結果依序出現) + 6s(開獎結果畫面停止) = 33s
+                setTimeout(NuoYa_AIR_Restart,33000);
+            }else{
+                // 16s(試手氣的動畫時間) + 2s(開獎結果依序出現) + 6s(開獎結果畫面停止) = 24s
+                setTimeout(NuoYa_AIR_Restart,24000);
+            };
+        }
+        function NuoYa_AIR_Restart(){
+            document.getElementById('ny_air_wrap').className = '';
+            airTryLuckBtn.style = '';
+            airTryLuckBtn.addEventListener('click', air_try_luck);
+            air_countdown_sec = AIR_COUNTDOWN_SEC;
+            airCountdown();
+        }
+    })()
+</script>
+</body>
+</html>
